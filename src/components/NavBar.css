@@ -1,0 +1,79 @@
+.navbar ul li .nav-link:hover{
+    color:#173b6c;
+    transition-duration: 0.5s;
+}
+.navbar ul li .nav-link{
+    color:rgba(0, 0, 0, 0.748);
+    font-size: 16px;
+    font-weight: 600;
+}
+.active{
+    color:#173b6c;
+}
+.navbar-brand img{
+    height: 45px;
+}
+.offcanvas-title img{
+    height: 45px;
+}
+.navbar ul li .contact{
+    background-color: #ffffff;
+    padding: 0.5rem 2rem;
+    border: 1px solid rgba(127, 127, 127, 0.748);
+    cursor: pointer;
+    font-family:'Open Sans', sans-serif;
+    box-shadow: 0 2px 2px rgb(0,0,o,0.2);
+}
+.navbar ul li .contact:hover{
+    background-color:#173b6c;
+    color:#ffffff;
+    transition-duration: 0.5s; 
+}
+.nav-link i{
+    padding-right: 6px;
+}
+
+.nav-profile{
+display: none;
+}
+@media (max-width: 960px) {
+    .nav-profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    .nav-profile img{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: #07070776 3px solid;
+        box-shadow: 0 0 9px #000000;
+    }
+    .nav-profile h2{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+    .nav-profile a {
+        display: flex;
+        float: left;
+        justify-content: center;
+        align-items: center;
+         text-decoration: none;
+         height: 36px;
+         width: 36px;
+         background-color: #173b6c;
+        border-radius: 50%;
+        font-size: 18px;
+        text-align: center;
+        color:#ffffff;
+        margin-right:4px;
+    }
+    .nav-profile a:hover{
+        color:#173b6c;
+        background-color: #f1eeee;
+        transition: 0.5s;
+    }
+  }
