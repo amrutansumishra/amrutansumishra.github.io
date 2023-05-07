@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import brandlogo from "../utils/images/Amrutansu.png";
-import mypic from "../utils/images/mypic1.jpeg";
+import mypic from "../utils/images/mypic2.jpeg";
 
 
 function NavBar() {

@@ -39,6 +39,14 @@ padding-right: 6px;
 .progress-bar{
   background-color: #173b6c;
 }
+.skill-image{
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(180, 180, 180, 0.8);
+}
+
+
 
 @media (max-width:960px) {
   .intro-background{
