@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5122277.css",
+    "main.js": "/static/js/main.2eed13b6.js",
+    "static/media/mypic.jpg": "/static/media/mypic.34389dff0066c67b05be.jpg",
+    "static/media/mypic2.jpeg": "/static/media/mypic2.cf9ced58021a4f968e53.jpeg",
+    "static/media/css.png": "/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/aws.png": "/static/media/aws.2fa1fd9b62291b221647.png",
+    "static/media/reactjs.png": "/static/media/reactjs.20adfb35ae6a6e5817bf.png",
+    "static/media/nodejs.png": "/static/media/nodejs.bc4b43cd5f20ba305059.png",
+    "static/media/Amrutansu-white.png": "/static/media/Amrutansu-white.f9492237f231a8106f2b.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.2402571a1c4ce9e7213d.png",
+    "static/media/expressjs.png": "/static/media/expressjs.39a0f4c3d981885c64f8.png",
+    "static/media/Amrutansu.png": "/static/media/Amrutansu.0bffe2c14dd1a3674144.png",
+    "index.html": "/index.html",
+    "main.d5122277.css.map": "/static/css/main.d5122277.css.map",
+    "main.2eed13b6.js.map": "/static/js/main.2eed13b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5122277.css",
+    "static/js/main.2eed13b6.js"
+  ]
+}
