@@ -38,7 +38,7 @@ function About() {
             <div className="row about">
               <div className="col-lg-6">
                 <ul className=''>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.amrutansu.com</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>amrutansumishra.github.io</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 **********</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru, India</span></li>
                 </ul>
