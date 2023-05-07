@@ -22,16 +22,16 @@ function footer() {
           <div className="social-media ">
           <ul>
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+              <a href="https://github.com/amrutansumishra" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
             </li>
             <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.youtube.com/@oyeyarcoder" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i></a>
             </li>
             <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/amrutansu-mishra/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
             </li>
             <li>
-              <a href="mailto:"><i class="bi bi-envelope-fill"></i></a>
+              <a href="mailto:mishraamrutansu@gmail.com"><i class="bi bi-envelope-fill"></i></a>
             </li>  
           </ul>
           </div>          
@@ -39,8 +39,8 @@ function footer() {
       </div>
       <div className="footer-last">
         <ul>
-          <li><a href="http://">Term and Conditions</a></li>
-          <li><a href="http://">Privacy Policy</a></li>
+          <li><a>Term and Conditions</a></li>
+          <li><a>Privacy Policy</a></li>
           <li>copyright © Amrutansu</li>
         </ul>
       </div>

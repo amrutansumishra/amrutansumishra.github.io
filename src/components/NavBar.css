@@ -76,4 +76,7 @@ display: none;
         background-color: #f1eeee;
         transition: 0.5s;
     }
+    .hidden-xs{
+        display: none !important;
+    }
   }

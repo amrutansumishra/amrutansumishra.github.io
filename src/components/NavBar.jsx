@@ -42,16 +42,16 @@ function NavBar() {
               <img src={mypic} className="mb-3" alt="Amrutansu"/>
               <h2 className="mb-3">Amrutansu Mishra</h2>
               <div className="mt-2">
-              <a href="http://"><i class="bi bi-github"></i></a>
-              <a href="http://"><i class="bi bi-instagram"></i></a>
-              <a href="http://"><i class="bi bi-twitter"></i></a>
-              <a href="http://"><i class="bi bi-youtube"></i></a>
-              <a href="http://"> <i class="bi bi-linkedin"></i></a>
-              <a href="http://"><i class="bi bi-envelope-fill"></i></a>
+              <a href="http://https://github.com/amrutansumishra" target="_blank" rel="noreferrer"><i class="bi bi-github"></i></a>
+              <a href="http://www.facebook.com/amrutansumishra" target="_blank" rel="noreferrer"><i class="bi bi-instagram"></i></a>
+              <a href="http://twitter.com/Amrutansumishra" target="_blank" rel="noreferrer"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.youtube.com/@oyeyarcoder" target="_blank" rel="noreferrer"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.linkedin.com/in/amrutansu-mishra/" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i></a>
+              <a href="mailto:mishraamrutansu@gmail.com"><i class="bi bi-envelope-fill"></i></a>
               </div>
               
             </div>
-            <ul className="navbar-nav ms-auto d-flex align-items-center">
+            <ul className="navbar-nav ms-auto d-flex align-items-center hidden-xs">
               <li className="nav-item px-3">
                 <a className="nav-link active" aria-current="page" href="#">
                   <i className="bi bi-house-door"></i><span>Home</span>

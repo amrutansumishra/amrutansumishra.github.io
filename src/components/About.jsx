@@ -9,11 +9,6 @@ import reactjs from '../utils/images/reactjs.png';
 import nodejs from '../utils/images/nodejs.png';
 import html from '../utils/images/html.png';
 import css from '../utils/images/css.png';
-import './skill.css';
-
-
-
-
 import './About.css';
 function About() {
   return (
@@ -75,7 +70,7 @@ function About() {
 
         </div>
       </div>    
-      <div className='row'>
+      <div className='row pt-5'>
       <div className='section-title'>
               <h2>Skills</h2>
           </div>
