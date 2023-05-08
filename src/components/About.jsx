@@ -75,7 +75,7 @@ function About() {
               <h2>Skills</h2>
           </div>
       </div> 
-      <div className="row d-flex align-items-center justify-content-between">
+      <div className="row d-flex align-items-center justify-content-around">
       
       <div className="col-lg-3 col-md-4 col-xs-6 skill-image">
       <img src={html}  className="img-fluid" alt="HTML"/>

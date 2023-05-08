@@ -40,6 +40,9 @@ padding-right: 6px;
   background-color: #173b6c;
 }
 .skill-image{
+  display: flex;
+    justify-content: center;
+    align-items: center;
   height: 150px;
   width: 150px;
   border-radius: 5px;
@@ -54,5 +57,8 @@ padding-right: 6px;
   .intro-background img{
     height: 100vh;
     width: auto;
+  }
+  .skill-image{
+    margin: 10px 0;
   }
 }

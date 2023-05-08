@@ -41,7 +41,6 @@ function footer() {
         <ul>
           <li><a>Term and Conditions</a></li>
           <li><a>Privacy Policy</a></li>
-          <li>copyright © Amrutansu</li>
         </ul>
       </div>
     </div>

@@ -50,6 +50,7 @@ display: none;
         border-radius: 50%;
         border: #07070776 3px solid;
         box-shadow: 0 0 9px #000000;
+        object-fit: cover;
     }
     .nav-profile h2{
         font-size: 24px;
