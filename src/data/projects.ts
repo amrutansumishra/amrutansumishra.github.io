@@ -1,6 +1,4 @@
-// TODO: Replace image paths with real project screenshots once available in src/assets.
-// TODO: Replace liveUrl / githubUrl placeholders with your real links.
-
+import noteDark from "../assets/noteDark.png";
 export type Project = {
   id: string;
   title: string;
@@ -35,7 +33,8 @@ export const projects: Project[] = [
     title: "Notepad App",
     description:
       "Minimal notepad app for writing and organizing notes with local storage.",
-    technologies: ["React", "IndexedDB", "Tailwind CSS"],
+    technologies: ["React Native", "Expo", "AsyncStorage"],
+    image: noteDark,
     liveUrl: "#",
     githubUrl: "https://github.com/amrutansumishra/tick-notes",
   },

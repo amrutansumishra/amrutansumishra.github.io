@@ -37,3 +37,10 @@ export const experienceStats = [
   { label: "Core Technologies", value: "4+" },
   { label: "GitHub Contributions", value: "100+" },
 ];
+
+export const stats = [
+  { label: "Years Experience", value: "5+" },
+  { label: "Projects Completed", value: "10+" },
+  { label: "Core Technologies", value: "4+" },
+  { label: "Project Categories", value: "3+" },
+];

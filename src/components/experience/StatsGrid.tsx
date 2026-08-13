@@ -7,7 +7,7 @@ const icons = [Calendar, FolderCheck, Smile, GitCommitHorizontal];
 export function StatsGrid() {
   return (
     <Reveal>
-      <div className="grid grid-cols-2 gap-4 rounded-2xl border border-border bg-card/60 p-5 backdrop-blur-sm">
+      <div className="grid grid-cols-4 gap-4 rounded-2xl border border-border bg-card/60 p-5 backdrop-blur-sm">
         {experienceStats.map((stat, i) => {
           const Icon = icons[i % icons.length];
           return (

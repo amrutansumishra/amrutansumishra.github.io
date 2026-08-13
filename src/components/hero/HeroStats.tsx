@@ -1,10 +1,5 @@
 // TODO: Replace with your real, verifiable numbers.
-const stats = [
-  { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "10+" },
-  { label: "Core Technologies", value: "4+" },
-  { label: "Project Categories", value: "3+" },
-];
+import {stats} from "../../data/experience.ts";
 
 export function HeroStats() {
   return (

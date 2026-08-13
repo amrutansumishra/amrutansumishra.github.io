@@ -1,4 +1,5 @@
 import { ArrowUpRight, Mail, Download } from "lucide-react";
+import resume from "../../assets/Amrutansu_Mishra_Resume.pdf";
 
 function scrollTo(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -39,7 +40,7 @@ export function HeroActions() {
       </button>
 
       <a
-        href="/Amrutansu_Mishra_Resume.pdf" // TODO: replace with your actual CV/resume file
+        href={resume} // TODO: replace with your actual CV/resume file
         download
         className="
           inline-flex h-12 items-center gap-2 rounded-xl px-5 text-sm font-medium text-muted

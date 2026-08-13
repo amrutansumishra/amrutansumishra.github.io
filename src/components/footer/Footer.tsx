@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "../ui/SocialIcons";
+import { GithubIcon, LinkedinIcon, YoutubeIcon } from "../ui/SocialIcons";
+import { userInfo } from "../../data/userInfo";
 
 const quickLinks = [
   { label: "About", href: "#about" },
@@ -18,7 +19,6 @@ const services = [
   "Consulting",
 ];
 
-// TODO: point these at your real destinations once available
 const resources = [
   { label: "Blog", href: "/blog" },
   { label: "GitHub", href: "#" },
@@ -29,10 +29,10 @@ const resources = [
 
 // TODO: replace with your real social profile URLs
 const socials = [
-  { label: "GitHub", icon: GithubIcon, href: "#" },
-  { label: "LinkedIn", icon: LinkedinIcon, href: "#" },
-  { label: "Twitter / X", icon: TwitterIcon, href: "#" },
-  { label: "Email", icon: Mail, href: "mailto:hello@amrumi.dev" },
+  { label: "GitHub", icon: GithubIcon, href: userInfo.github },
+  { label: "LinkedIn", icon: LinkedinIcon, href: userInfo.linkedin },
+  { label: "YouTube", icon: YoutubeIcon, href: userInfo.youtube },
+  { label: "Email", icon: Mail, href: userInfo.email },
 ];
 
 export function Footer() {
@@ -48,10 +48,10 @@ export function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary/10 text-primary">
                 <span className="text-xl font-bold">A</span>
               </div>
-              <span className="text-base font-semibold text-foreground">Amrutansu Mishra</span>
+              <span className="text-base font-semibold text-foreground">{userInfo.name}</span>
             </div>
             <p className="mt-3 max-w-[220px] text-sm leading-relaxed text-muted">
-              Frontend React Developer passionate about creating exceptional digital experiences.
+              {userInfo.footerIntro}
             </p>
             <ul className="mt-5 flex items-center gap-2">
               {socials.map((social) => (
@@ -129,7 +129,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border py-6 text-xs text-muted sm:flex-row">
-          <p>© {year} Amrutansu Mishra. All rights reserved.</p>
+          <p>© {year} {userInfo?.name}. All rights reserved.</p>
           <div className="flex items-center gap-5">
             <a href="#" className="transition-colors hover:text-foreground">
               Privacy Policy

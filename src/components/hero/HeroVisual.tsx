@@ -440,7 +440,7 @@ export function HeroVisual() {
   >
     <motion.img
       src={profileImage}
-      alt="Amru Mi"
+      alt="Amrutansu Mishra"
       className="
         absolute
         left-[54%]
@@ -844,7 +844,7 @@ export function HeroVisual() {
           color: "var(--code-string)",
         }}
       >
-        'Amru Mi'
+        'Amrutansu Mishra'
       </span>
       ,
     </div>

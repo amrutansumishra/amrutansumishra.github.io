@@ -68,7 +68,7 @@ export function Hero() {
             variants={shouldReduceMotion ? undefined : item}
             className="max-w-[480px] text-base leading-relaxed text-muted"
           >
-            Frontend React Developer with 2+ years of experience building
+            Frontend React Developer with 5+ years of experience building
             scalable, user-centric web applications with modern technologies
             and best practices.
           </motion.p>

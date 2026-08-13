@@ -16,7 +16,7 @@ export function ExperienceSection() {
           <ExperienceTimeline />
 
           <div id="skills" className="flex flex-col gap-6 scroll-mt-28">
-            <StatsGrid />
+            {/* <StatsGrid /> */}
             <SkillsOverview />
           </div>
         </div>
